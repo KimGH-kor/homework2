@@ -1,0 +1,41 @@
+a{
+    text-decoration:none;
+    color: #fff;
+    }
+h1{
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin: 0px;
+    background-color:darkgray;
+
+    }
+
+ol{
+    margin: 0px;
+    border-right: 1px solid black ;
+    background-color:green;
+    list-style: none;
+    }
+p{
+    padding-left: 10px;
+    }
+.gg{
+    background-color: darkseagreen;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    }
+@media(max-width:600px){
+.grid{
+    display: block;
+    }
+    
+ol{
+    border-right: none;
+    }
+h1{
+    border-bottom: none;
+}
+    }   
